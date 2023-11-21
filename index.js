@@ -37,6 +37,6 @@ app.get('/main/:token', (req, res) => {
     if(checkToken(req.params.token)){
         res.render('main', {token: req.params.token});
     }else{
-        res.status(498).send(<h1>Invalid Token</h1>);
+        res.status(498).send('Invalid Token');
     }
 })
