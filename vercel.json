@@ -12,7 +12,9 @@
         "dest": "index.js"
       },
        {
-        "src":"/main/:token"
+        "src":"/main/:token",
+        "dest":"index.js",
+        "method":"GET"
        }
     ]
   }
